@@ -16,7 +16,7 @@ git clone https://github.com/oliversandli/lanimret.git
 
 ## Wiki
 
-[laminret wiki](https://github.com/oliversandli/lanimret/wiki)
+[lanimret wiki](https://github.com/oliversandli/lanimret/wiki)
 
 ## Examples
 
