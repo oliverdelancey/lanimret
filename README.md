@@ -8,7 +8,7 @@
 
 ## Installation
 
-### pip
+### pip (soon to come)
 
 ```bash
 pip install lanimret
