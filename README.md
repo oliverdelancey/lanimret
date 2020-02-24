@@ -4,7 +4,7 @@
 
 ## Dependencies
 
-*lanimret* is written in Python v3.7 with only modules from the standard library.
+*lanimret* only uses modules from CPython's standard library.
 
 ## Installation
 
@@ -25,7 +25,7 @@ git clone https://github.com/oliversandli/lanimret.git
 ```python
 from lanimret import Color as co
 
-# print blue text and then blue text with a red background
+# print blue text, then blue text with a red background, then reset colors
 
 print(f"{co.fg.blue}This is blue text! {co.bg.red}And with a red background.{co.reset}")
 ```
@@ -38,7 +38,7 @@ from lanimret import Cursor
 
 cur = Cursor()
 
-for i in range(101)
+for i in range(101):
     print(f"{i}%", end="")
     time.sleep(0.05)
     cur.clear_line(2)
