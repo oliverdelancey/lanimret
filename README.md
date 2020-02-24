@@ -38,7 +38,7 @@ from lanimret import Cursor
 
 cur = Cursor()
 
-for i in range(101)
+for i in range(101):
     print(f"{i}%", end="")
     time.sleep(0.05)
     cur.clear_line(2)
