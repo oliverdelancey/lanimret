@@ -6,6 +6,20 @@
 
 *lanimret* is written in Python v3.7 with only modules from the standard library.
 
+## Installation
+
+### pip
+
+```bash
+pip install lanimret
+```
+
+### Github
+
+```bash
+git clone https://github.com/oliversandli/lanimret.git
+```
+
 ## Examples
 
 ```python
