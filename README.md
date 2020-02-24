@@ -8,12 +8,6 @@
 
 ## Installation
 
-### pip (soon to come)
-
-```bash
-pip install lanimret
-```
-
 ### Github
 
 ```bash
