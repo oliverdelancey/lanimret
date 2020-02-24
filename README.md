@@ -5,3 +5,27 @@
 ## Dependencies
 
 *lanimret* is written in Python v3.7 with only modules from the standard library.
+
+## Examples
+
+```python
+from lanimret import Color as co
+
+# print blue text and then blue text with a red background
+
+print(f"{co.fg.blue}This is blue text! {co.bg.red}And with a red background.{co.reset}")
+```
+
+```python
+import time
+from lanimret import Cursor
+
+# a simple progress indicator
+
+cur = Cursor()
+
+for i in range(101)
+    print(f"{i}%", end="")
+    time.sleep(0.05)
+    cur.clear_line(2)
+```

@@ -143,9 +143,30 @@ class Cursor:
         sys.stdout.write(f"\u001b[{num}B")
         sys.stdout.flush()
 
+    def clear_screen(self, num):
+        """clear screen"""
+        if num not in [0, 1, 2]:
+            raise ValueError("Cursor.clear_screen only takes (0, 1, 2)")
+        sys.stdout.write(f"\u001b[{num}J")
+        sys.stdout.flush()
+
+    def clear_line(self, num):
+        """clear current line"""
+        if num not in [0, 1, 2]:
+            raise ValueError("Cursor.clear_line only takes (0, 1, 2)")
+        if num == 2:
+            sys.stdout.write(f"\u001b[{num}K\n")
+            sys.stdout.flush()
+            self.up(1)
+        else:
+            sys.stdout.write(f"\u001b[{num}K")
+            sys.stdout.flush()
+
     access = {
         "left": left,
         "right": right,
         "up": up,
-        "down": down
+        "down": down,
+        "clear_screen": clear_screen,
+        "clear_line": clear_line
         }
