@@ -1,18 +1,18 @@
 # lanimret
 
-*lanimret* is a simple, clear module giving full terminal control on \*nix systems. The detested *curses* library will never have to show its face in your code again.
+`lanimret` (`terminal` backwards) is a simple, clear module giving full terminal control on \*nix systems. The detested `curses` library will never have to show its face in your code again.
 
 ## Dependencies
 
-*lanimret* only uses modules from CPython's standard library.
+`lanimret` only uses modules from `CPython`'s standard library.
 
 ## Installation
-
-### Github
 
 ```bash
 git clone https://github.com/oliversandli/lanimret.git
 ```
+
+Place the `lanimret.py` file in your project.
 
 ## Wiki
 
