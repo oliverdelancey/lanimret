@@ -1,4 +1,4 @@
-# lanimret
+![banner](images/banner.png)
 
 *lanimret* is a simple, clear module giving full terminal control on \*nix systems. The detested *curses* library will never have to show its face in your code again.
 
@@ -7,8 +7,6 @@
 *lanimret* only uses modules from CPython's standard library.
 
 ## Installation
-
-### Github
 
 ```bash
 git clone https://github.com/oliversandli/lanimret.git
